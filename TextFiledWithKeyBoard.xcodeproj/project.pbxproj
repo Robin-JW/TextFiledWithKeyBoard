@@ -19,6 +19,13 @@
 		00D21E691867008A00D0151E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D21E511867008A00D0151E /* UIKit.framework */; };
 		00D21E711867008A00D0151E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E6F1867008A00D0151E /* InfoPlist.strings */; };
 		00D21E731867008A00D0151E /* TextFiledWithKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E721867008A00D0151E /* TextFiledWithKeyBoardTests.m */; };
+		00D21E83186700A400D0151E /* button_submit_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E7D186700A400D0151E /* button_submit_on.png */; };
+		00D21E84186700A400D0151E /* button_submit_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E7E186700A400D0151E /* button_submit_on@2x.png */; };
+		00D21E85186700A400D0151E /* IQKeyBoardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E80186700A400D0151E /* IQKeyBoardManager.m */; };
+		00D21E86186700A400D0151E /* text_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E81186700A400D0151E /* text_background.png */; };
+		00D21E87186700A400D0151E /* text_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E82186700A400D0151E /* text_background@2x.png */; };
+		00D21E8A186700BC00D0151E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E89186700BC00D0151E /* MainViewController.m */; };
+		00D21E8E1867039900D0151E /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E8D1867039900D0151E /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,16 @@
 		00D21E6E1867008A00D0151E /* TextFiledWithKeyBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextFiledWithKeyBoardTests-Info.plist"; sourceTree = "<group>"; };
 		00D21E701867008A00D0151E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D21E721867008A00D0151E /* TextFiledWithKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFiledWithKeyBoardTests.m; sourceTree = "<group>"; };
+		00D21E7D186700A400D0151E /* button_submit_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_submit_on.png; sourceTree = "<group>"; };
+		00D21E7E186700A400D0151E /* button_submit_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_submit_on@2x.png"; sourceTree = "<group>"; };
+		00D21E7F186700A400D0151E /* IQKeyBoardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyBoardManager.h; sourceTree = "<group>"; };
+		00D21E80186700A400D0151E /* IQKeyBoardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyBoardManager.m; sourceTree = "<group>"; };
+		00D21E81186700A400D0151E /* text_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_background.png; sourceTree = "<group>"; };
+		00D21E82186700A400D0151E /* text_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text_background@2x.png"; sourceTree = "<group>"; };
+		00D21E88186700BC00D0151E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		00D21E89186700BC00D0151E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		00D21E8C1867039900D0151E /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		00D21E8D1867039900D0151E /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +124,13 @@
 		00D21E531867008A00D0151E /* TextFiledWithKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				00D21E88186700BC00D0151E /* MainViewController.h */,
+				00D21E89186700BC00D0151E /* MainViewController.m */,
 				00D21E5C1867008A00D0151E /* AppDelegate.h */,
 				00D21E5D1867008A00D0151E /* AppDelegate.m */,
 				00D21E5F1867008A00D0151E /* Images.xcassets */,
+				00D21E8B1867039900D0151E /* iToast */,
+				00D21E7C186700A400D0151E /* IQKeyBoardManager */,
 				00D21E541867008A00D0151E /* Supporting Files */,
 			);
 			path = TextFiledWithKeyBoard;
@@ -142,6 +163,28 @@
 				00D21E6F1867008A00D0151E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00D21E7C186700A400D0151E /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				00D21E7D186700A400D0151E /* button_submit_on.png */,
+				00D21E7E186700A400D0151E /* button_submit_on@2x.png */,
+				00D21E7F186700A400D0151E /* IQKeyBoardManager.h */,
+				00D21E80186700A400D0151E /* IQKeyBoardManager.m */,
+				00D21E81186700A400D0151E /* text_background.png */,
+				00D21E82186700A400D0151E /* text_background@2x.png */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		00D21E8B1867039900D0151E /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				00D21E8C1867039900D0151E /* iToast.h */,
+				00D21E8D1867039900D0151E /* iToast.m */,
+			);
+			path = iToast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +264,10 @@
 			files = (
 				00D21E581867008A00D0151E /* InfoPlist.strings in Resources */,
 				00D21E601867008A00D0151E /* Images.xcassets in Resources */,
+				00D21E86186700A400D0151E /* text_background.png in Resources */,
+				00D21E87186700A400D0151E /* text_background@2x.png in Resources */,
+				00D21E83186700A400D0151E /* button_submit_on.png in Resources */,
+				00D21E84186700A400D0151E /* button_submit_on@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +288,9 @@
 			files = (
 				00D21E5E1867008A00D0151E /* AppDelegate.m in Sources */,
 				00D21E5A1867008A00D0151E /* main.m in Sources */,
+				00D21E85186700A400D0151E /* IQKeyBoardManager.m in Sources */,
+				00D21E8E1867039900D0151E /* iToast.m in Sources */,
+				00D21E8A186700BC00D0151E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
