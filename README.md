@@ -14,4 +14,4 @@
     [textFiled becomeFirstResponder];
     
     
-    +![]("http://git.oschina.net/gejw0623/TextFiledWithKeyBoard/blob/master/TextFiledWithKeyBoard/screen.jpg")
+    ![img]("/TextFiledWithKeyBoard/screen.jpg")
