@@ -12,3 +12,5 @@
     }];
      //4.显示键盘
     [textFiled becomeFirstResponder];
+
+	![](http://git.oschina.net/gejw0623/TextFiledWithKeyBoard/blob/master/TextFiledWithKeyBoard/screen.jpg)
