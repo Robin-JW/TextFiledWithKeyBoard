@@ -26,6 +26,7 @@
 		00D21E87186700A400D0151E /* text_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E82186700A400D0151E /* text_background@2x.png */; };
 		00D21E8A186700BC00D0151E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E89186700BC00D0151E /* MainViewController.m */; };
 		00D21E8E1867039900D0151E /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D21E8D1867039900D0151E /* iToast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		00D21E901867073F00D0151E /* screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00D21E8F1867073F00D0151E /* screen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		00D21E89186700BC00D0151E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		00D21E8C1867039900D0151E /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
 		00D21E8D1867039900D0151E /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		00D21E8F1867073F00D0151E /* screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		00D21E531867008A00D0151E /* TextFiledWithKeyBoard */ = {
 			isa = PBXGroup;
 			children = (
+				00D21E8F1867073F00D0151E /* screen.jpg */,
 				00D21E88186700BC00D0151E /* MainViewController.h */,
 				00D21E89186700BC00D0151E /* MainViewController.m */,
 				00D21E5C1867008A00D0151E /* AppDelegate.h */,
@@ -266,6 +269,7 @@
 				00D21E601867008A00D0151E /* Images.xcassets in Resources */,
 				00D21E86186700A400D0151E /* text_background.png in Resources */,
 				00D21E87186700A400D0151E /* text_background@2x.png in Resources */,
+				00D21E901867073F00D0151E /* screen.jpg in Resources */,
 				00D21E83186700A400D0151E /* button_submit_on.png in Resources */,
 				00D21E84186700A400D0151E /* button_submit_on@2x.png in Resources */,
 			);
