@@ -14,4 +14,4 @@
     [textFiled becomeFirstResponder];
     
     
-    ![alt text]("http://git.oschina.net/gejw0623/TextFiledWithKeyBoard/blob/master/TextFiledWithKeyBoard/screen.jpg")
+    +![]("http://git.oschina.net/gejw0623/TextFiledWithKeyBoard/blob/master/TextFiledWithKeyBoard/screen.jpg")
