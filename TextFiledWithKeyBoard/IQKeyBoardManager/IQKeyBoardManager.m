@@ -170,6 +170,10 @@ static IQKeyBoardManager *kbManager;
 //UIKeyboard Did shown. Adjusting RootViewController's frame according to device orientation.
 -(void)keyboardWillShow:(NSNotification*)aNotification
 {
+    NSLog(@"显示键盘");
+    UITextField *textFiled = (UITextField*)[[[[(UIToolbar*)[textFieldView inputAccessoryView] items] objectAtIndex:0] customView] viewWithTag:10001];
+    [textFiled becomeFirstResponder];
+    
     CGFloat aDuration = [[aNotification.userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
     if (aDuration!= 0.0f)
     {
@@ -337,7 +341,6 @@ static IQKeyBoardManager *kbManager;
     textFiled.tag = 10001;
     textFiled.placeholder = @"请输入评论内容!";
     [textFiled setCallBack:callback];
-    [textFiled resignFirstResponder];
     [layout addSubview:textFiled];
     
     UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(260, 2.5, 25, 25)];
